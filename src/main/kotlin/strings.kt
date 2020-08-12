@@ -1,6 +1,7 @@
 fun main(){
-    val wordOne = """Kotlin is Modern
-        """
+    val wordOne = """
+        Kotlin is Modern
+    """
     val wordTwo = """
         Kotlin is Concise
     """

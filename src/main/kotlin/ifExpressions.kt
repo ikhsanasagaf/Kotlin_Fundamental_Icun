@@ -1,8 +1,10 @@
 fun main (args: Array<String>){
     val nilai = 80
-    if(nilai >=75){
-        println("Nilai kamu "+nilai+ ", Selamat ya! ")
+    val hasil : String
+    hasil = if(nilai >=75){
+        "Nilai kamu "+nilai+ ", Selamat ya! "
     }else{
-        println("Nilai kamu "+nilai+ ", Silahkan ikuti remidial")
+        "Nilai kamu "+nilai+ ", Silahkan ikuti remidial"
     }
+    print(hasil)
 }
